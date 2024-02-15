@@ -13,6 +13,7 @@ private Controller controller;
 	@Test
 	void contextLoads() {
 	}
+	@Test
 	public void Story() {
 		String story=controller.story();
 		assertEquals("palo alto testing", story);
