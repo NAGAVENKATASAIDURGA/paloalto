@@ -16,7 +16,7 @@ private Controller controller;
 	@Test
 	public void Story() {
 		String story=controller.story();
-		assertEquals("palo alto testing", story);
+		assertEquals("Hello world", story);
 	}
 
 }
