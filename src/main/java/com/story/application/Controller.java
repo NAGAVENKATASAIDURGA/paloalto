@@ -8,8 +8,10 @@ import org.slf4j.LoggerFactory;
 @RestController
 @RequestMapping("/palo")
 public class Controller {
-@GetMapping("/alto")
+@GetMapping("/test")
 public String story() {
-	return "palo alto testing";
+	Logger logger=LoggerFactory.getLogger(Controller.class);
+	logger.info("I am sample piece of code");
+	return "Hello world";
 }
 }
